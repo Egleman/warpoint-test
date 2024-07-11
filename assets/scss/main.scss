@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import './components/container';
+@import './components/transition';
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  outline: none !important;
+}
+
+body {
+  font-size: 14px;
+  color: #333;
+  min-height: 100vh;
+  font-family: 'Open Sans', sans-serif;
+}
+button,
+label {
+  cursor: pointer;
+}
+a {
+  color: #333;
+}
+
+b {
+  font-weight: 700;
+}
+ul {
+  list-style-type: none;
+}
+
+button[disabled] {
+  background: #eee !important;
+  color: #b9b5b5 !important;
+  box-shadow: none !important;
+  cursor: not-allowed !important;
+}

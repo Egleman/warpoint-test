@@ -1,0 +1,23 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build --dotenv .env",
+    "dev": "nuxt dev --host --dotenv .env",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "@nuxtjs/ionic": "^0.15.0",
+    "axios": "^1.6.2",
+    "click-outside-vue3": "^4.0.1",
+    "nuxt": "^3.12.3",
+    "pdfkit": "^0.15.0",
+    "vue": "latest"
+  },
+  "devDependencies": {
+    "sass": "^1.77.4"
+  }
+}

@@ -1,0 +1,8 @@
+.processing-enter-active,
+.processing-leave-active {
+  transition: opacity .3s;
+}
+.processing-enter-from,
+.processing-leave-to {
+  opacity: 0;
+}
